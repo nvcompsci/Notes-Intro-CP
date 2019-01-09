@@ -33,7 +33,14 @@ Produces this...
 <img src="https://www.springfieldnewssun.com/cat-680x383.jpeg" width="300" height="200">
 ```
 ### Creating sections with `<div>`
-
+Add a `<div>` tag before the elements and a closing `</div>` tag after the elements to enclose them inside of a `<div>`.  
+```html
+<div>
+  <h1>The Weather</h1>
+  <p>It will be cold and rainy today.</p>
+</div>
+```
+`<div>` does not show up as anything on the page unless you style it with CSS. They are used to simply organize your page, but with CSS they can be made to look like boxes that contain content.  
 ## Formatting and Design with *CSS*
 
 ### Styling the entire page
