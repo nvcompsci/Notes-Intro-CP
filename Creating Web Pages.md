@@ -58,6 +58,12 @@ p {
 }
 ```
 ### Styling specific elements using `id`
+Add an `id` attribute inside of the tag and set it `=` to some unique name surrounded by quotes (`"`).  
+```html
+<div id="favMusic">
+  <p>My favorite band is Panic! At the Disco.</p>
+</div>
+```
 `#` represents `id` when selecting elements in CSS.  
 ```css
 #favMusic {
